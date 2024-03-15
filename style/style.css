@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+._container {
+    max-width: 716px;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+body{
+    background-color: #060A13;
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.bold {
+    font-weight: 700;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.link {
+    background: linear-gradient(272deg, #87AFFF, #7DEAFF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.main {
+    padding-top: 30px;
+}
+.video__demo {
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.main-button {
+    display: inline-flex;
+}
+.button {
+    display: flex;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: linear-gradient(273deg, #87AFFF 0%, #7DEAFF 100%);
+    margin-top: 40px;
+    height: 52px;
+    font-weight: 500;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.button a {
+    color: #060A13;
+}
+
+.button:hover {
+    background: #fff;
+    
+}
+.button:focus {
+    background-color: #fff;
+}
+
+li {
+    position: relative;
+    padding-left: 24px;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: linear-gradient(272deg, #87AFFF, #7DEAFF);
+    border-radius: 100px;
+    left: 9px;
+    top: 9px
+}
+
+a.button:visited {
+    color: #060A13;
+}
+
