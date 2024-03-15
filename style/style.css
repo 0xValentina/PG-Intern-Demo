@@ -72,7 +72,7 @@ body{
 .main {
     padding-top: 30px;
 }
-.video__demo {
+video {
     border-radius: 10px;
     max-width: 100%;
     margin: 20px 0;
@@ -124,7 +124,7 @@ li::before {
     top: 9px
 }
 
-a.button:visited {
+.button:visited {
     color: #060A13;
 }
 
